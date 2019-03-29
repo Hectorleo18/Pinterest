@@ -54,6 +54,9 @@
     $('#contenedor').flexgal();
     </script>
     
+        <div id="openModal2" class="modalDialog" role="dialog">
+            Prueba
+        </div>
         <!-- Formulario de ingreso -->
         <div id="openModal" class="modalDialog" role="dialog" >
             
@@ -94,7 +97,7 @@
                         <p class="centrarTexto" style="font-size: 11px">Al continuar, aceptas las Condiciones del servicio y la Política de privacidad de Pinterest.</p>
                     </div>
                     <div class="centrarTexto">
-                        <a href="">¿Ya eres miembro? Inicia sesión</a>
+                        <a href="paginas/login.php">¿Ya eres miembro? Inicia sesión</a>
                     </div>
 
                     <div class="modal-footer pie" role="button">
