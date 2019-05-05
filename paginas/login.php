@@ -74,7 +74,7 @@
                             <p>Encuentra nuevas ideas que probar</p>
                         </div>
                         <div>
-                            <form action="datos.php" method="POST">
+                            <form action="home.html" method="POST">
                                 <div>
                                     <p id="centrar"><input id="field" class="form-control form-control-lg" type="email" name="correo" placeholder="Correo o número de teléfono"> </p><br>
                                 </div>
