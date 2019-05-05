@@ -1,0 +1,17 @@
+alter session set "_ORACLE_SCRIPT" = true;
+CREATE USER PINTEREST_DB
+  IDENTIFIED BY "oracle"
+  DEFAULT TABLESPACE USERS
+  TEMPORARY TABLESPACE TEMP;
+--asignar cuota ilimitada al tablespace por defecto
+ALTER USER PINTEREST_DB QUOTA UNLIMITED ON USERS;
+
+--Asignar privilegios basicos
+GRANT create session TO PINTEREST_DB;
+GRANT create table TO PINTEREST_DB;
+GRANT create view TO PINTEREST_DB;
+GRANT create any trigger TO PINTEREST_DB;
+GRANT create any procedure TO PINTEREST_DB;
+GRANT create sequence TO PINTEREST_DB;
+GRANT create synonym TO PINTEREST_DB;
+GRANT create materialized view TO PINTEREST_DB;
